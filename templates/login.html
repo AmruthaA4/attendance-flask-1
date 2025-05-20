@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mark Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Mark Attendance</h2>
+    <form action="/mark" method="post">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
